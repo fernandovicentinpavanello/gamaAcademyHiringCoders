@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-  background: url('/src/imgAndVideos/img-1.jpg') center center/cover no-repeat;
+  /* background: url('../assets/Images/img-8.jpg') center center/cover no-repeat; */
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -42,6 +42,12 @@ video {
 
 .fa-play-circle {
   margin-left: 4px;
+}
+
+img {
+  height: auto;
+  margin-top: 30px;
+  max-width: 75%;
 }
 
 @media screen and (max-width: 960px) {
