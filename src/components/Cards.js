@@ -18,12 +18,16 @@ function Cards() {
               src={img9}
               text="Explore the hidden waterfall deep inside the Amazon Jungle"
               label="Adventure"
+              price1='$109.90'
+              price='$49.90'
               path="/services"
             />
             <CardItem
               src={img2}
               text="Travel through the Islands of Bali in a Private Cruise"
               label="Luxury"
+              price1='$299.90'
+              price='$149.90'
               path="/services"
             />
           </ul>
@@ -32,18 +36,24 @@ function Cards() {
               src={img3}
               text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
               label="Mystery"
+              price1='$199.90'
+              price='$119.90'
               path="/services"
             />
             <CardItem
               src={img4}
               text="Experience Football on Top of the Himilayan Mountains"
               label="Adventure"
+              price1='$399.90'
+              price='$249.90'
               path="/products"
             />
             <CardItem
               src={img8}
               text="Ride through the Sahara Desert on a guided camel tour"
               label="Adrenaline"
+              price1='$289.90'
+              price='$149.90'
               path="/sign-up"
             />
           </ul>

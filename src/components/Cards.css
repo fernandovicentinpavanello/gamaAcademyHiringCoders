@@ -99,6 +99,22 @@ h1 {
   line-height: 24px;
 }
 
+.cards__item__price1 {
+  color: #252e48;
+  text-decoration: line-through;
+  text-decoration-color: #880000;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.cards__item__price {
+  color: #252e48;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
