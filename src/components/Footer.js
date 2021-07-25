@@ -118,14 +118,6 @@ export default class ContactFormComponent extends Component {
                 <i class="fab fa-instagram" />
               </Link>
               <Link
-                class="social-icon-link youtube"
-                to="/"
-                target="_blank"
-                aria-label="Youtube"
-              >
-                <i class="fab fa-youtube" />
-              </Link>
-              <Link
                 class="social-icon-link twitter"
                 to="/"
                 target="_blank"

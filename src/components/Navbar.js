@@ -43,11 +43,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/clients'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Clientes
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,21 +56,20 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Produtos
               </Link>
             </li>
-
             <li>
               <Link
                 to='/sign-up'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Cadastrar
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>CADASTRAR</Button>}
         </div>
       </nav>
     </>

@@ -6,32 +6,36 @@
 }
 
 .home,
-.services,
+.clients,
 .products,
 .sign-up {
-  display: flex;
+  /* display: flex; */
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('./assets/Images/img-4.jpg');
+.clients {
+  background-image: url('./assets/Images/img-7.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 36px;
+  text-align: center;
+  z-index: -1;
 }
 
 .products {
-  background-image: url('./assets/Images/img-2.jpg');
+  background-image: url('./assets/Images/img-7.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 36px;
+  text-align: center;
+  z-index: -1;
 }
 
 .sign-up {
@@ -40,5 +44,47 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 48px;
+}
+
+form {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 10px;
+}
+
+input {
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+
+h3 {
+  padding-top: 16px;
+  font-size: 30px;
+}
+
+.btnIn {
+  padding: 7px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #55d835;
+  color: #242424;
+  border: 2px solid #55d835;
+  font-size: 20px;
+}
+
+.btnIn:hover {
+  background-color: #282a36;
+  color: #55d835;
+  border: 2px solid #55d835;
 }
